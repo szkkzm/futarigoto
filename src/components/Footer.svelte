@@ -26,7 +26,7 @@
 </div>
 
 <div class="bar"/>
-<p class='copyright'>2022 Robotics Course｜National Institute of Technology, Sendai College</p>
+<p class='copyright'>2022 Kzm｜FUTARIGOTO </p>
 </footer>
 
 <style>
