@@ -6,11 +6,11 @@ export const movieList = [
       "img": "/3-1.jpg",
       "sections": [
         {
-          "buttonText" : "▶　前編を見る",
+          "buttonText" : "前編を見る　≫",
           "URL": "https://www.youtube.com/watch?v=jn76fqIyFC0",
         },
         {
-          "buttonText" : "▶　後編を見る",
+          "buttonText" : "後編を見る　≫",
           "URL": "https://www.youtube.com/watch?v=bIWGe3s-cqc",
         },
       ]
@@ -22,7 +22,7 @@ export const movieList = [
     "img": "/ex.jpg",
     "sections": [
       {
-        "buttonText" : "▶　動画を見る",
+        "buttonText" : "動画を見る　≫",
         "URL": "https://www.youtube.com/watch?v=sJNvfbRHS1s",
       },
     ]
@@ -34,15 +34,15 @@ export const movieList = [
       "img": "/2-1.jpg",
       "sections": [
         {
-          "buttonText" : "▶　前編を見る",
+          "buttonText" : "前編を見る　≫",
           "URL": "https://www.youtube.com/watch?v=jVGG0hckIyg",
         },
         {
-          "buttonText" : "▶　中編を見る",
+          "buttonText" : "中編を見る　≫",
           "URL": "https://www.youtube.com/watch?v=KaDw4dnUtlg",
         },
         {
-          "buttonText" : "▶　後編を見る",
+          "buttonText" : "後編を見る　≫",
           "URL": "https://www.youtube.com/watch?v=bLZLR0OFbG4",
         },
       ]
@@ -54,11 +54,11 @@ export const movieList = [
         "img": "/1-1.jpg",
         "sections": [
           {
-            "buttonText" : "▶　前編を見る",
+            "buttonText" : "前編を見る　≫",
             "URL": "https://www.youtube.com/watch?v=nP5mElKZi1Q",
           },
           {
-            "buttonText" : "▶　後編を見る",
+            "buttonText" : "後編を見る　≫",
             "URL": "https://www.youtube.com/watch?v=rejXpqsrEO4",
           },
         ]

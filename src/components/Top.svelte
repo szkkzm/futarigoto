@@ -15,7 +15,7 @@
     </p>
     <Router>
       <Link to="/about" class='pl-6 sm:pl-14'>
-        <Button color="white" outlined class='mt-2 text-white-900 text-xs sm:text-sm sm:mt-6'>About "FUTARIGOTO" ▶</Button>
+        <Button color="white" outlined class='mt-2 text-white-900 text-xs sm:text-sm sm:mt-6'>About "FUTARIGOTO" ≫</Button>
       </Link>
     </Router>
   </div>
