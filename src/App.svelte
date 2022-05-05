@@ -1,6 +1,6 @@
 <script>
-	import "smelte/src/tailwind.css" ;
 	export let url='';
+	import "smelte/src/tailwind.css" ;
   import { Router, Link, Route } from "svelte-routing";
 	import Header from './components/Header.svelte';
 	import Footer from './components/Footer.svelte';
@@ -27,12 +27,4 @@
 		text-align: center;
 		margin: 0 auto;
 	}
-
-	h1 {
-		color: #ff3e00;
-		text-transform: uppercase;
-		font-size: 4em;
-		font-weight: 100;
-	}
-
 </style>

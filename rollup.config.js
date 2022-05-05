@@ -44,33 +44,32 @@ export default {
 				dev: !production
 			}
 		}),
-		smelte({
-	    purge: production,
-	    output: "public/global.css", // it defaults to static/global.css which is probably what you expect in Sapper
-	    postcss: [], // Your PostCSS plugins
-	    whitelist: [], // Array of classnames whitelisted from purging
-	    whitelistPatterns: [], // Same as above, but list of regexes
-	    tailwind: {
-	      colors: {
-	        primary: "#222831",
-	        secondary: "#FFDA77",
-					thirdly: "#AEE6E6",
-					accent: "#FFA45B",
-					background: "#FBF6F0",
-	        error: "#f44336",
-	        success: "#4caf50",
-	        alert: "#ff9800",
-					white: "#FFFFFF",
-	        blue: "#2196f3",
-	       　 dark: "#212121"
-	      }, // Object of colors to generate a palette from, and then all the utility classes
-	      darkMode: true,
-	    },
-		}),
 		// we'll extract any component CSS out into
 		// a separate file - better for performance
 		css({ output: 'bundle.css' }),
-
+		smelte({
+			purge: production,
+			output: "public/smelte.css", // it defaults to static/global.css which is probably what you expect in Sapper
+			postcss: [], // Your PostCSS plugins
+			whitelist: [], // Array of classnames whitelisted from purging
+			whitelistPatterns: [], // Same as above, but list of regexes
+			tailwind: {
+				colors: {
+					primary: "#222831",
+					secondary: "#FFDA77",
+					thirdly: "#AEE6E6",
+					accent: "#FFA45B",
+					background: "#FBF6F0",
+					error: "#f44336",
+					success: "#4caf50",
+					alert: "#ff9800",
+					white: "#FFFFFF",
+					blue: "#2196f3",
+				 　 dark: "#212121"
+				}, // Object of colors to generate a palette from, and then all the utility classes
+				darkMode: true,
+			},
+		}),
 		// If you have external dependencies installed from
 		// npm, you'll most likely need these plugins. In
 		// some cases you'll need additional configuration -

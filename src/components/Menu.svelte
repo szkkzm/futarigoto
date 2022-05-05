@@ -28,12 +28,6 @@
         padding-top: 0;
         color: #FFA45B;
     }
-    a {
-        cursor: pointer;
-        width: max-content;
-        margin: 1rem auto;
-        display: block;
-    }
     .bar {
         margin: 0 auto;
         width: 75%;

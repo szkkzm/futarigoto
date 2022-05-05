@@ -51,12 +51,6 @@ onMount(()=>{
 
 
 <style>
-  @font-face{font-family: Senobi-Gothic;
-  src: url(/Senobi-Gothic-Regular2.woff2);}
-  h2 {
-    font-family: Senobi-Gothic;
-    letter-spacing: 0.05rem;
-  }
   h3{
     font-family: Futura;
     letter-spacing: 0.2rem;
